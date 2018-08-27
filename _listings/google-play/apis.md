@@ -9,11 +9,81 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Achievement
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/achievement/master/_listings/google-play/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Play - Get Achievements
+  x-api-slug: achievements-get
+  description: Lists all the achievement definitions for your application.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/achievement/master/_listings/google-play/achievements-get-openapi.md
+- name: Google Play - Update Multiple Achievements
+  x-api-slug: achievementsupdatemultiple-post
+  description: Updates multiple achievements for the currently authenticated player.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/achievement/master/_listings/google-play/achievementsupdatemultiple-post-openapi.md
+- name: Google Play - Increment Step Of Achievement
+  x-api-slug: achievementsachievementidincrement-post
+  description: Increments the steps of the achievement with the given ID for the currently
+    authenticated player.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/achievement/master/_listings/google-play/achievementsachievementidincrement-post-openapi.md
+- name: Google Play - Set State of Achievement
+  x-api-slug: achievementsachievementidreveal-post
+  description: Sets the state of the achievement with the given ID to REVEALED for
+    the currently authenticated player.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/achievement/master/_listings/google-play/achievementsachievementidreveal-post-openapi.md
+- name: Google Play - Set Steps for Achievements
+  x-api-slug: achievementsachievementidsetstepsatleast-post
+  description: Sets the steps for the currently authenticated player towards unlocking
+    an achievement. If the steps parameter is less than the current number of steps
+    that the player already gained for the achievement, the achievement is not modified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/achievement/master/_listings/google-play/achievementsachievementidsetstepsatleast-post-openapi.md
+- name: Google Play - Unlock Achievement
+  x-api-slug: achievementsachievementidunlock-post
+  description: Unlocks this achievement for the currently authenticated player.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/achievement/master/_listings/google-play/achievementsachievementidunlock-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.people.api.gallery.streamdata.io
